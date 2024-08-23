@@ -130,7 +130,7 @@ ingress:
   - service: http_status:404
 EOF
   else
-    echo -e "\e[1;32mARGO_AUTH mismatch TunnelSecret,use token connect to tunnel\e[0m"
+    echo -e "\e[1;32m6\e[0m"
   fi
 }
 argo_configure
